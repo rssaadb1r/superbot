@@ -25,11 +25,11 @@ local function run(msg, matches)
     if is_sudo(msg) then
      rank = 'مطور 🌝☄'
     elseif is_owner(msg) then
-     rank = 'مدير 🌝☄'
+     rank = 'مشرف 🌝☄'
     elseif is_admin(msg) then
      rank = 'ادمن 🌝☄'
     elseif is_mod(msg) then
-     rank = 'Moderator'
+     rank = 'مدير'
     else
      rank = 'عضو 😹🌝☄'
     end
