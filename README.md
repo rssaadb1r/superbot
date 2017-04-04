@@ -25,16 +25,16 @@
 
 `````
 cd $HOME
-git clone https://github.com/sajad1200/Bot-net.git
-cd Bot-net
-chmod +x Botnet.sh
-./Botnet.sh install
-./Botnet.sh # Enter a phone number & confirmation code.
+git clone https://github.com/saadmzed/kenam.git
+cd kenam
+chmod +x kenam.sh
+./kenam.sh install
+./kenam.sh # Enter a phone number & confirmation code.
 
 # And run thes files :
 
 Netredis.sh
-Botnet.sh
+kenam.sh
 ``````
 ### One command
 To install everything in one command, use:
