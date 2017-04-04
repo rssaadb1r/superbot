@@ -70,15 +70,18 @@ function create_config( )
     "msg-checks",
     "plugins",
 	"me",
-    "tools"
+    "tools",
+    "dell",
+    "reply",
+    "cleanbot"
  },
     sudo_users = {30742221},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[- BOT-NET v2.0
-- Developer : Sajad Aliraqe - سجاد العراقي - @Al_Srai
-- Channel : @Al_Srai1
+    info_text = [[- KENAMBOT-PLUS
+- Developer : @saad7m
+- Channel : @kenam_ch
 ]],
   }
   serialize_to_file(config, './data/config.lua')
