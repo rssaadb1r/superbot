@@ -1,4 +1,4 @@
-  - [Bot-net](https://telegram.me/Al_Srai1) Source By Sajad Aliraqe
+  - [KENAM](https://telegram.me/saad7m) Source By saadmzed
 ============
 
   - An advanced and powerful administration bot based on NEW TG-CLI
@@ -40,7 +40,7 @@ kenam.sh
 To install everything in one command, use:
 
 ```sh
-cd $HOME && git clone https://github.com/sajad1200/Bot-net.git && cd Bot-net && chmod +x Botnet.sh && ./Botnet.sh install && ./Botnet.sh
+cd $HOME && git clone https://github.com/saadmzed/kenam.git && cd kenam && chmod +x kenam.sh && ./kenam.sh install && ./kenam.sh
 ```
 
 * * *
@@ -49,10 +49,10 @@ cd $HOME && git clone https://github.com/sajad1200/Bot-net.git && cd Bot-net && 
 
 After you run the bot for first time, send it `/id`. Get your ID and `stop the bot.`
 
-Open `./Bot-net./data./Config.lua` And add your id in there
+Open `./kenam./data./Config.lua` And add your id in there
 ```
     sudo_users = {
-    321681775,
+    30742221,
     0,
     YourID
   }
@@ -60,19 +60,19 @@ Open `./Bot-net./data./Config.lua` And add your id in there
 
 # Support and development
 
-More information [Bot-net Development](https://t.me/joinchat/AAAAAD6v2N-Xoupx5d3aOQ)
+More information [kenam Development](https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzFQ)
 
 * * *
 
 # Developer!
 
 
-- [Sajad Aliraqe On github](https://github.com/sajad1200) 
+- [saadmzed On github](https://github.com/saadmzed) 
 
-- [Sajad Aliraqe On Telegram](https://telegram.me/Al_Srai)
+- [saadmzed On Telegram](https://telegram.me/saad7m)
 
 
 ### Our Telegram channel:
 
-[Bot-Net Channel](https://telegram.me/Al_Srai1)
+[kenam Channel](https://telegram.me/kenam_ch)
 
