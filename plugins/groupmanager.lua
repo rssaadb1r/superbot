@@ -194,7 +194,7 @@ local lang = redis:get(hash)
 if not lang then
     return "*Group is not added*"
 else
-return "*المجموعة لت مضافة*"
+return "*المجموعة ليست مضافة*"
   end
 end
   -- determine if table is empty
