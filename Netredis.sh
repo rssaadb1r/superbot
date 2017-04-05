@@ -1,12 +1,12 @@
 redis-server
-./Botnet.sh
+./kenam.sh
 redis-server
 redis-server
-./Botnet.sh
+./kenam.sh
 redis-server
 redis-server
-./Botnet.sh
+./kenam.sh
 redis-server
 redis-server
-./Botnet.sh
+./kenam.sh
 redis-server
