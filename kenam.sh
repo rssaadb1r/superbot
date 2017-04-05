@@ -1,7 +1,7 @@
 
 #!/usr/bin/env bash
 
-cd Bot-net
+cd kenam
 
 install() {
 	    cd tg
@@ -36,13 +36,13 @@ fi
 
 if [ "$1" = "-p" ]; then
     echo -e "\033[38;5;208m"
-    echo -e "     >> Bot-net Source By Sajad Aliraqe - @Al_Srai                    "
+    echo -e "     >> kenam Source By saadmzed - @saad7m                    "
     echo -e "                                              \033[0;00m"
     echo -e "\e[36m"
     ./tg/tgcli -s ./bot/bot.lua -p $2
 fi
    echo -e "\033[38;5;208m"
-   echo -e "     >> Bot-net Source By Sajad Aliraqe - @Al_Srai                      "
+   echo -e "     >> kenam Source By saadmzed - @saad7m                      "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
    ./tg/tgcli -s ./bot/bot.lua -l 1 -E $@
