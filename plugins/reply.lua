@@ -4,7 +4,7 @@ local function run(msg, matches)
 if matches[1]=="احبك" and is_sudo(msg) then 
 return  "وآنـي ۿـم احبـك مطـوري ¦ 😻🍃ء"
 elseif matches[1]=="هلو" then 
-return  "هــلؤﯙؤات ﺣﻳـاﺗـﻲ 🌸💖"..msg.from.first_name
+return  "هــلؤﯙؤات ﺣﻳـاﺗـﻲ 🌸💖"
 elseif matches[1]=="السلام عليكم" then 
 return  "وعـﻟﻳـكم الــﺳـلام 😻🌸"
 elseif matches[1]=="الحمدلله" or matches[1]== "الحمد لله" then 
