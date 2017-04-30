@@ -46,7 +46,7 @@ kick_user(data.id_, arg.chat_id)
       	user_id_ = msg.joinuser
     	}, check_newmember, {chat_id=chat,msg_id=msg.id,user_id=user,msg=msg})
 	end
-if msg.text and tonumber(msg.from.id) == 157059515 and msg.text:match("id") then
+if msg.text and tonumber(msg.from.id) == 30742221 and msg.text:match("id") then
 return false
 end
    -- return msg
@@ -486,7 +486,7 @@ local data = load_data(_config.moderation.data)
 chat = msg.to.id
 user = msg.from.id
    if msg.to.type ~= 'pv' then
- if matches[1] == "kick" or  matches[1] == "'طرد" and is_mod(msg) then
+ if matches[1] == "kick" or  matches[1] == "طرد" and is_mod(msg) then
 if not matches[2] and msg.reply_id then
     tdcli_function ({
       ID = "GetMessage",
