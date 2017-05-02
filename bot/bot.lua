@@ -91,8 +91,7 @@ function create_config( )
 》@saad7m《
 		
 🔰Our website :
-》https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzF
-		
+》https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzF		
 ]],
   }
   serialize_to_file(config, './data/config.lua')
