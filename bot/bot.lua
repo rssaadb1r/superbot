@@ -79,9 +79,7 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[- KENAMBOT-PLUS
-- Developer : @saad7m
-- Channel : @kenam_ch
+    info_text = [[》KENAM-BOT-GOOLD\n\n🔰Our channel :\n》@kenamch《\n\n🔰Our channel2 :\n》@kenam_ch《\n\n🔰by dev :\n》@saad7m《\n\n🔰Our website :\n》https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzFQ\n
 ]],
   }
   serialize_to_file(config, './data/config.lua')
