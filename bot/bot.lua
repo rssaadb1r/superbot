@@ -83,12 +83,16 @@ function create_config( )
 		
 🔰Our channel :
 》@kenam_ch《
+		
 🔰Our channel2 :
 》@kenamch《
+		
 🔰by dev :
 》@saad7m《
+		
 🔰Our website :
 》https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzF
+		
 ]],
   }
   serialize_to_file(config, './data/config.lua')
