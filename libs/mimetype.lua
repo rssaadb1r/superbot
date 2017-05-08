@@ -87,7 +87,7 @@ function mimetype.get_content_type(extension)
   end
 end
 
--- Returns the mimetype without the subtype By Sajad Aliraqe
+-- Returns the mimetype without the subtype By saadmusic
 function mimetype.get_content_type_no_sub(extension)
   for k,v in pairs(types) do
     if v == extension then
