@@ -2,7 +2,7 @@
 --
 -- Simple JSON encoding and decoding in pure Lua.
 --
--- Copyright 2010-2014 Sajad Aliraqe
+-- Copyright 2010-2014 saadmusic
 -- http://regex.info/blog/
 --
 -- Latest version: http://regex.info/blog/lua/json
