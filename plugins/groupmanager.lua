@@ -1421,7 +1421,7 @@ else
 end
 end
 end
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local function unmute_gif(msg, data, target)
 local hash = "gp_lang:"..msg.chat_id_
 local lang = redis:get(hash)
@@ -1595,7 +1595,7 @@ else
 end
 end
 end
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local function unmute_text(msg, data, target)
 local hash = "gp_lang:"..msg.chat_id_
 local lang = redis:get(hash)
@@ -1635,7 +1635,7 @@ else
  return "_أنت لست من المشرفين_"
 end
 end
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local mute_photo = data[tostring(target)]["mutes"]["mute_photo"] 
 if mute_photo == "yes" then
 if not lang then
@@ -1664,7 +1664,7 @@ else
 return "_أنت لست من المشرفين_"
 end
 end
- -- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local mute_photo = data[tostring(target)]["mutes"]["mute_photo"]
  if mute_photo == "no" then
 if not lang then
@@ -1740,7 +1740,7 @@ return "_تم تعطيل كتم الفيديو_"
 end
 end
 end
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 ---------------Mute Audio-------------------
 local function mute_audio(msg, data, target) 
 local hash = "gp_lang:"..msg.chat_id_
@@ -1781,7 +1781,7 @@ else
  return "_أنت لست من المشرفين_"
 end
 end 
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local mute_audio = data[tostring(target)]["mutes"]["mute_audio"]
  if mute_audio == "no" then
 if not lang then
@@ -1839,7 +1839,7 @@ else
  return "_أنت لست من المشرفين_"
 end
 end 
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local mute_voice = data[tostring(target)]["mutes"]["mute_voice"]
  if mute_voice == "no" then
 if not lang then
@@ -1926,7 +1926,7 @@ else
  return "_أنت لست من المشرفين_"
 end
 end
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local mute_contact = data[tostring(target)]["mutes"]["mute_contact"] 
 if mute_contact == "yes" then
 if not lang then
@@ -1955,7 +1955,7 @@ else
  return "_أنت لست من المشرفين_"
 end
 end 
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local mute_contact = data[tostring(target)]["mutes"]["mute_contact"]
  if mute_contact == "no" then
 if not lang then
@@ -2013,7 +2013,7 @@ else
  return "_أنت لست من المشرفين_"
 end
 end 
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local mute_forward = data[tostring(target)]["mutes"]["mute_forward"]
  if mute_forward == "no" then
 if not lang then
@@ -2060,7 +2060,7 @@ else
 end
 end
 end
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local function unmute_location(msg, data, target)
 local hash = "gp_lang:"..msg.chat_id_
 local lang = redis:get(hash)
@@ -2176,7 +2176,7 @@ return "_كتم خدمات التيليجرام تم تفعيله_"
 end
 end
 end
--- Coded By Sajad Aliraqe - [Channel : @Alsrai1] - [Telegarm : @Al_Srai]
+-- Coded By saadmusic - [Channel : @kenamch] - [Telegarm : @saad7m]
 local function unmute_tgservice(msg, data, target)
 local hash = "gp_lang:"..msg.chat_id_
 local lang = redis:get(hash)
@@ -3425,7 +3425,7 @@ patterns ={
 "^(معلومات حول) (%d+)$",
 "^(اضافه لغه) (.*)$",
 "^(منع) (.*)$",
-"^(حذ��) (.*)$",
+"^(حذف) (.*)$",
 "^(قائمه منع الكلمات)$",
 "^([https?://w]*.?t.me/joinchat/%S+)$",
 "^([https?://w]*.?telegram.me/joinchat/%S+)$",
