@@ -632,7 +632,7 @@ else
       if not lang then
        filterlist = '*List of filtered words :*\n'
          else
-       filterlist = '_قائمه الكلمات الممنوعة :_\n'
+       filterlist = '_قائمه الكلمات الممنوعه :_\n'
     end
  local i = 1
    for k,v in pairs(data[tostring(msg.chat_id_)]['filterlist']) do
