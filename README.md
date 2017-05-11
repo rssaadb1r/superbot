@@ -1,4 +1,4 @@
-  - [KENAM](https://telegram.me/saad7m) Source By saadmzed
+  - [KENAM](https://telegram.me/saad7m) Source By saadmusic
 ============
 
   - An advanced and powerful administration bot based on NEW TG-CLI
