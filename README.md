@@ -33,7 +33,7 @@ chmod +x kenam.sh
 
 # And run thes files :
 
-Netredis.sh
+kmredis.sh
 kenam.sh
 ``````
 ### One command
