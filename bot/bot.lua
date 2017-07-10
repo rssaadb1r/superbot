@@ -75,23 +75,23 @@ function create_config( )
     "reply",
     "cleanbot"
  },
-    sudo_users = {30742221},
+    sudo_users = {116526232},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》KENAM-BOT-GOOLD
+    info_text = [[》SUPER-BOT-GOOLD
 		
 🔰Our channel :
-》@kenam_ch《
+》@hackre《
 		
 🔰Our channel2 :
-》@kenamch《
+》@hackre《
 		
 🔰by dev :
-》@saad7m《
+》@hackre《
 		
 🔰Our website :
-》https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzFQ		
+》https://telegram.me/hackre		
 ]],
   }
   serialize_to_file(config, './data/config.lua')
